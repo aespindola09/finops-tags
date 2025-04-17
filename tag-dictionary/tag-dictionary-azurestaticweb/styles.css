@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  color: #0078D4;
+}
+.filters {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.filters label {
+  margin-right: 5px;
+}
+.filters select, .filters input {
+  padding: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+th {
+  background-color: #0078D4;
+  color: white;
+}

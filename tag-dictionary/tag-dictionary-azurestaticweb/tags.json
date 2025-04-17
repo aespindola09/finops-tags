@@ -1,0 +1,51 @@
+[
+  {
+    "key": "owner",
+    "description": "\u00c1rea o gerencia responsable del recurso",
+    "required": true,
+    "allowed_values": [
+      "TEC-IT",
+      "DSM",
+      "URD",
+      "UPO",
+      "UDC"
+    ],
+    "applies_to": [
+      "aws",
+      "azure"
+    ]
+  },
+  {
+    "key": "environment",
+    "description": "Ambiente del recurso",
+    "required": true,
+    "allowed_values": [
+      "dev",
+      "test",
+      "prod"
+    ],
+    "applies_to": [
+      "aws",
+      "azure"
+    ]
+  },
+  {
+    "key": "costcenter",
+    "description": "C\u00f3digo del centro de costos",
+    "required": true,
+    "allowed_values": [],
+    "applies_to": [
+      "azure"
+    ]
+  },
+  {
+    "key": "project",
+    "description": "Nombre del proyecto",
+    "required": false,
+    "allowed_values": [],
+    "applies_to": [
+      "aws",
+      "azure"
+    ]
+  }
+]

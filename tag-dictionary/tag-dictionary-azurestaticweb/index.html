@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diccionario de Tags Cloud</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📘 Diccionario de Tags para la Nube</h1>
+
+    <div class="filters">
+      <label for="filter-nube">🌩️ Nube:</label>
+      <select id="filter-nube">
+        <option value="todas">Todas</option>
+        <option value="azure">Azure</option>
+        <option value="aws">AWS</option>
+      </select>
+
+      <label for="filter-required">🎯 Obligatorio:</label>
+      <select id="filter-required">
+        <option value="todos">Todos</option>
+        <option value="true">Sí</option>
+        <option value="false">No</option>
+      </select>
+
+      <input type="text" id="search" placeholder="🔍 Buscar tag...">
+    </div>
+
+    <table id="tag-table">
+      <thead>
+        <tr>
+          <th>Tag</th>
+          <th>Descripción</th>
+          <th>Obligatorio</th>
+          <th>Valores Permitidos</th>
+          <th>Aplica a</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
