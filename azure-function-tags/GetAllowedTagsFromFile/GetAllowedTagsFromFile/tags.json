@@ -1,0 +1,30 @@
+[
+  {
+    "key": "owner",
+    "description": "Área o gerencia responsable del recurso",
+    "required": true,
+    "allowed_values": ["TEC-IT", "DSM", "URD", "UPO", "UDC"],
+    "applies_to": ["aws", "azure"]
+  },
+  {
+    "key": "environment",
+    "description": "Ambiente del recurso",
+    "required": true,
+    "allowed_values": ["dev", "test", "prod"],
+    "applies_to": ["aws", "azure"]
+  },
+  {
+    "key": "costcenter",
+    "description": "Código del centro de costos",
+    "required": true,
+    "allowed_values": ["ARBA001", "ARBA002"],
+    "applies_to": ["azure"]
+  },
+  {
+    "key": "project",
+    "description": "Nombre del proyecto",
+    "required": false,
+    "allowed_values": [],
+    "applies_to": ["aws", "azure"]
+  }
+]
