@@ -1,4 +1,4 @@
-# A# 🏷️ FinOps Tags – Repositorio de gestión de etiquetas en la nube
+#FinOps Tags – Repositorio de gestión de etiquetas en la nube
 
 Este repositorio contiene herramientas, scripts, documentación y automatizaciones para la **gestión de tags (etiquetas)** en entornos **multinube (AWS y Azure)**, alineados con prácticas de FinOps y gobernanza corporativa.
 
