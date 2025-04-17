@@ -1,0 +1,37 @@
+{
+  "properties": {
+    "displayName": "Validaci\u00f3n de tags FinOps corporativos",
+    "policyType": "Custom",
+    "mode": "Indexed",
+    "description": "Asegura que los recursos tengan los tags requeridos con valores v\u00e1lidos.",
+    "metadata": {
+      "category": "Tags"
+    },
+    "parameters": {},
+    "policyRule": {
+      "if": {
+        "anyOf": [
+          {
+            "field": "tags['owner']",
+            "notIn": [
+              "TEC-IT",
+              "DSM",
+              "URD"
+            ]
+          },
+          {
+            "field": "tags['environment']",
+            "notIn": [
+              "dev",
+              "test",
+              "prod"
+            ]
+          }
+        ]
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "key": "owner",
+    "description": "Área o gerencia responsable del recurso",
+    "required": true,
+    "allowed_values": ["TEC-IT", "DSM", "URD"],
+    "applies_to": ["aws", "azure"]
+  },
+  {
+    "key": "environment",
+    "description": "Ambiente del recurso",
+    "required": true,
+    "allowed_values": ["dev", "test", "prod"],
+    "applies_to": ["aws", "azure"]
+  }
+]
