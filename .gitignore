@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches y logs
+*.log
+*.tmp
+*.bak
+
+# Archivos de entorno
+.env
+.env.*
+
+# Entornos virtuales (si usás uno local)
+.venv/
+venv/
+
+# Archivos de Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de Azure Functions local
+.local.settings.json
+
+# Archivos de depuración de VS Code o Python
+*.coverage
+*.pylint.d
+coverage.xml
+
+# Archivos temporales de Git o merge
+*.swp
+*.swo
+*~
+
+# Archivos ZIP de distribución o backups
+*.zip
+
+# Mac / Linux file trash
+.Trash-*
+
+# Config de Python build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter notebooks temporales (por si usás notebooks para testing)
+.ipynb_checkpoints/
+
+# Carpetas de publicación de Azure (si no querés trackearlas)
+.azure/
